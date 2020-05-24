@@ -6,7 +6,7 @@ const path = require('path');
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.set('views', path.join( __dirname,'../', 'public'));
+app.set('views', path.join( __dirname,'../', 'client'));
 app.engine('html', ejs.renderFile);
 app.set('view engine', 'html');
 
@@ -16,6 +16,7 @@ const server = {
         const httpServer = http.createServer(app);
         httpServer.listen(4999, 'localhost');
         routes(app);
+        console.log('server running @ localhost:4999');
     }
 }
 

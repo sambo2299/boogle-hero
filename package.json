@@ -4,7 +4,14 @@
   "description": "booble game",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "client": "cd client/boogle && npm start",
+    "client:prod": "cd client/boogle && serve -s build",
+    "server": "node server/index.js",
+    "start": "npm run server & npm run client",
+    "start:prod": "npm run server & npm run client:prod",
+    "test:server": "mocha server/tests/server.test.js",
+    "test:client": "cd client/boogle && npm test -a",
+    "test": "npm run test:server && npm run test:client"
   },
   "author": "samyog",
   "license": "ISC",
