@@ -1,6 +1,5 @@
 node_modules/*
 client/boogle/node_modules/*
-client/boogle
 client/boogle/build/*
 
 
