@@ -1,0 +1,10 @@
+.letterBox {
+    width: 60px;
+    height: 60px;
+    background-color: #e0bab8;
+    font-size: 50px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+

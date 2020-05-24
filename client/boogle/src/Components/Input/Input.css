@@ -1,0 +1,15 @@
+
+.InputForm{
+    display: flex;
+    /* position: fixed; */
+    bottom: 35%;
+    width: 40%;
+    margin: 15px;
+}
+.Input{
+    border-radius: 15px solid brown;
+    width: 99%;
+    height: 30px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}

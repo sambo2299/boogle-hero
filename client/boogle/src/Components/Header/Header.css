@@ -1,0 +1,12 @@
+.Header {
+    height: 80px;
+    border-color: rgb(104, 67, 67);
+    border-style: solid;
+    mask-border-width: 2px;
+    background-color: brown;
+    align-items: center;
+    text-align: center;
+    display:block;
+    color: white;
+    padding-bottom: 5px;
+   }

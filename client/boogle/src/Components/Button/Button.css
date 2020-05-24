@@ -1,0 +1,23 @@
+.Button {
+    background-color: brown;
+    margin: 2px;
+    border: none;
+    color: white;
+    height: 60px;
+    width: 150px;
+    border-radius: 4px;
+}
+
+.ButtonRefresh {
+    position: relative;
+    display:inline;
+    margin: 30px 0px 30px 200px;
+    
+}
+
+.ButtonStart {
+    position: relative;
+    font-weight: 30px;
+    font-style: bold;
+    height: 40px;
+}

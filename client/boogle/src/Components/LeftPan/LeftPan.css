@@ -1,0 +1,30 @@
+.Block {
+    border: 0.5px solid brown;
+    width: 50%;
+    padding: 2px;
+}
+
+.ErrorMessage {
+    color: Red;
+    padding-left: 5px;
+}
+
+.StartBlock {
+    background-color: #e0bab8;
+    margin: 10px 40px 10px 30%;
+    align-items: center;
+    vertical-align: center;
+    width: 240px;
+    height: 240px;
+    padding: 20px;
+    text-align: center;
+}
+
+.InnerBlock {
+    height:250px;
+}
+.Input.Block {
+    position: absolute;
+    bottom: 0;
+}
+

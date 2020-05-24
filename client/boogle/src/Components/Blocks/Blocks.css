@@ -1,0 +1,8 @@
+.LetterBlock {
+    /* margin: 10px 40px 10px 35%; */
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    /* width:40%; */
+    margin-top: 10px;
+}
